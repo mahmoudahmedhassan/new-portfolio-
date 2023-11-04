@@ -37,12 +37,13 @@ function Navbar() {
         </Link>
         <ul className="list-none hidden sm:flex text-center gap-9 ">
           {navLinks.map((item) => (
-            <li
+                <li
               className="  font-medium cursor-pointer text-[18px] text-secondary hover:text-white"
               key={item.id}
             >
-              {item.title}
-            </li>
+              {/* {item.title} */}
+              <a href={`#${item.id}`}>{item.title}</a>
+            </li>   
           ))}
         </ul>
         {/* mobile screen */}

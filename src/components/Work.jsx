@@ -110,4 +110,4 @@ function Work() {
   );
 }
 
-export default SectionWrapper(Work, "");
+export default SectionWrapper(Work, "work");
