@@ -7,7 +7,7 @@ import {
   Navbar,
   Tech,
   Work,
-  Feedbacks,
+  // Feedbacks,
   Contact,
   Chat,
 } from './components';
@@ -30,7 +30,7 @@ function App() {
           <Experiences />
           <Tech />
           <Work />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
