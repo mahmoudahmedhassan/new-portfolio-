@@ -1,4 +1,6 @@
 import logo from "./logo.webp";
+import new_logo from "./new_logo.jpg";
+import logo_resize from "./logo_resize.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,10 +10,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import hodmy from "./hodmy.jpg";
 import todo from "./todo.png";
-import quiz from "./quiz.png"
-import view from "./view-demo.png"
-import metronic from "./metronic.jpg"
-import dentalHealth from "./dentalHealth.png"
+import quiz from "./quiz.png";
+import view from "./view-demo.png";
+import metronic from "./metronic.jpg";
+import dentalHealth from "./dentalHealth.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,11 +39,13 @@ import niyat from "./company/niyat.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import chatBot from "./chatBot.png"; 
-import resume from "./resume.pdf"
+import chatBot from "./chatBot.png";
+import resume from "./resume.pdf";
 
 export {
   logo,
+  new_logo,
+  logo_resize,
   backend,
   creator,
   mobile,
@@ -78,5 +82,5 @@ export {
   metronic,
   dentalHealth,
   chatBot,
-  resume
+  resume,
 };
